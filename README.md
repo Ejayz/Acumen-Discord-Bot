@@ -1,19 +1,15 @@
-# Acumen Ranking Discord Bot
+# Acumen Discord Ranking Bot
 
-This Discord Bot will specialize to give exp and rank up your user!
+> This Discord Bot will specialize to give exp and rank up your users!
 
-<h1>Goal</h1>
+## Goal
 
--Ranking System
-<br>
--Guild Seperation for Users that are in multiple guild that the bot is currently on 
+- Ranking System
+- Guild Seperation for Users that are in multiple guild that the bot is currently on
 
+## Requirements
 
-<br>
-If you want to run this discord bot on your own server you will need the following :
-<br>
--Node.Js
-<br>
--Mysql
-<br>
-For question contact me in discord:ejayz#2275
+- Node.JS
+- MySQL
+
+###### For question contact me on discord: ejayz#2275
