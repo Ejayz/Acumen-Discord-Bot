@@ -1,6 +1,6 @@
 # Acumen Discord Ranking Bot
 
-> This Discord Bot will specialize to give exp and rank up your users!
+> This Discord Bot will specialize to give exp and rank up your users and reward them with crypto!
 
 ## Goal
 
