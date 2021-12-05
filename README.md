@@ -5,7 +5,7 @@
 ## Goal
 
 - Ranking System
-- Guild Seperation for Users that are in multiple guild that the bot is currently on
+- Guild Seperation for Users that are in multiple guild that the bot is currently on.It also will reward you Mintme for everytime you lvl up!
 
 ## Requirements
 
