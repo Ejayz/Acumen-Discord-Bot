@@ -1,0 +1,34 @@
+{
+  "name": "acument-discord-bot",
+  "version": "1.0.0",
+  "description": "This is a ranking bot that reward you mintme everytime you lvl up",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspectdev-ph/Acumen-Discord-Bot.git"
+  },
+  "keywords": [
+    "Acumen"
+  ],
+  "author": "AspectDev-ph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aspectdev-ph/Acumen-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/aspectdev-ph/Acumen-Discord-Bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.9.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.25.2",
+    "dotenv": "^10.0.0",
+    "env": "^0.0.2",
+    "mysql": "^2.18.1",
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0"
+  }
+}
