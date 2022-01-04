@@ -3,7 +3,7 @@ const { Collection } = require('discord.js');
 const fs = require('fs');
 const embed = require('../gui/embed');
 const button = require('../gui/button');
-
+const { logg } = require('../logs/createLog')
 module.exports = {
     name: 'interactionCreate',
     once: false,
@@ -19,11 +19,15 @@ module.exports = {
         if (!command) return;
         try {
             await command.execute(interaction);
+            logg("Command executed:" + interaction.commandName).catch(error => {
+                logg(error);
+            });
         } catch (err) {
-            console.log(err);
+            logg(err).catch(error => {
+                console.log(error);
+            });
             await interaction.reply({ content: ' ', ephemeral: true, embeds: [embed.errorEmbed("There was an error executing the command")] })
         }
-
 
     }
 }

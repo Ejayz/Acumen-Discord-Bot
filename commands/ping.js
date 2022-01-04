@@ -8,7 +8,9 @@ module.exports = {
         .setDescription("Reply with pong")
     , async execute(interaction) {
 
-        await interaction.reply({ content: 'Result:', embeds: [embed.successEmbed("Pong")], components: [button.buttonGUI()] });
-       
+        const msg = await interaction.reply({ content: 'Result:', embeds: [embed.successEmbed("Pong")], components: [button.buttonGUI()] });
+        setTimeout(() => {
+            interaction.deleteReply();
+        }, 30000);
     }
 }

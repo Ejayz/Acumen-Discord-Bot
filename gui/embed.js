@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 
 function errorEmbed(description) {
     const embed = new MessageEmbed()
-        .setColor('#ff00000')
+        .setColor('#ff0000')
         .setTitle('Error')
         .setDescription(description)
         .setFooter("Acument Bot");
